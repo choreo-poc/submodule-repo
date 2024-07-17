@@ -1,9 +1,5 @@
 package submodule
 
-import (
-	"fmt"
-)
-
-func Hello() {
-	fmt.Println("Hello from submodule")
+func Hello() string {
+	return "Hello from submodule"
 }

@@ -5,5 +5,5 @@ func Hello() string {
 }
 
 func HelloV2() string {
-	return "Hello from submodule V2"
+	return "Hello from submodule V2 "
 }

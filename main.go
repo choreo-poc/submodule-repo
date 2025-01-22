@@ -1,10 +1,7 @@
 package main
 
 import (
-	"fmt"
-	submodule "submodules/nestedsubmodule"
-
-	
+	"fmt"	
 )
 
 func Hello() string {
@@ -14,5 +11,5 @@ func Hello() string {
 
 func main() {
 	fmt.Println("result from Hello():", Hello())
-	fmt.Println("result from nestedsubmodule.HelloMsg():", submodule.HelloMsg())
+	// fmt.Println("result from nestedsubmodule.HelloMsg():", submodule.HelloMsg())
 }

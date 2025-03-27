@@ -1,3 +1,6 @@
 [submodule "external"]
 	path = external
 	url = https://github.com/choreo-poc/submodule-pvt-nested
+[submodule "externalv2"]
+	path = externalv2
+	url = https://github.com/binoyPeries/submodule-pvt
